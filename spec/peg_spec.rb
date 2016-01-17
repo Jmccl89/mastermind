@@ -8,9 +8,9 @@ module Mastermind
         peg = Peg.new('R')
         expect(peg.color).to eq 'r'
       end
-      
+
       it 'can not be initialized without a color' do
-        expect{Peg.new()}.to raise_error(ArgumentError)
+        expect { Peg.new }.to raise_error(ArgumentError)
       end
     end
   end
