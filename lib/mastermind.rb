@@ -1,5 +1,7 @@
 require 'mastermind/version'
 require 'mastermind/peg'
+require 'mastermind/board'
+require 'mastermind/solution'
 
 module Mastermind
   # Your code goes here...
